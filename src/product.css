@@ -1,0 +1,58 @@
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    min-width: 100px;
+    max-height: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    z-index: 1;
+}
+
+.product_title{
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.product_info{
+   
+   background-color: white;
+}
+
+.product > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product_price{
+    margin-top: 5px;
+}
+
+.product_info{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.product > button{
+    background: #f6c344;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(230, 182, 92);
+}
+
+.product_rating{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
